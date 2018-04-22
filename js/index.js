@@ -20,7 +20,7 @@ $(function(){
     let click_arr = [];
     let sign = false;
 
-    //jQuery取canvas
+    //jQuery获取canvas元素
     context = $("#canvas")[0].getContext("2d");
     
     $(".type").click(function(){
