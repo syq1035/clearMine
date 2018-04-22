@@ -1,0 +1,15 @@
+#choose{
+    height: 60px;
+    margin-top: 50px;
+    text-align: center;
+}
+button{
+    height: 42px;
+    padding: 0 16px;
+    border-radius: 6px;
+    background-color: palevioletred;
+    border: none;
+}
+.canvasdiv{
+    text-align: center;
+}

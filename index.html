@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/index.css">
+        <script src="./js/jquery-3.2.1.js"></script>
+        <script src="./js/index.js"></script>
+
+        <title>扫雷</title>
+    </head>
+    <body>
+        <div id="main">
+            <div id="choose">
+                <button class="type" data-row="9" data-col="9" data-mine="10">简单</button>
+                <button class="type" data-row="14" data-col="14" data-mine="36">中级</button>
+                <button class="type" data-row="14" data-col="22" data-mine="56">高级</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="showmine">Mine:<span id="mine">0</span></button>
+            </div>
+            <div class="canvasdiv">
+                <canvas id="canvas"></canvas>                
+            </div>
+
+            </div>
+        </div>
+    </body>
+</html>
